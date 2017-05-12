@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_lpg" default="compile.module.lpg">
+  <dirname property="module.lpg.basedir" file="${ant.file.module_lpg}"/>
+  
+  <property name="module.jdk.home.lpg" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.lpg" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.lpg" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.lpg" value="-encoding windows-1252 -source 8 ${compiler.args}"/>
+  
+  <property name="lpg.output.dir" value="${module.lpg.basedir}/out/production/lpg"/>
+  <property name="lpg.testoutput.dir" value="${module.lpg.basedir}/out/test/lpg"/>
+  
+  <path id="lpg.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="lpg.module.production.classpath">
+    <path refid="${module.jdk.classpath.lpg}"/>
+  </path>
+  
+  <path id="lpg.runtime.production.module.classpath">
+    <pathelement location="${lpg.output.dir}"/>
+  </path>
+  
+  <path id="lpg.module.classpath">
+    <path refid="${module.jdk.classpath.lpg}"/>
+    <pathelement location="${lpg.output.dir}"/>
+  </path>
+  
+  <path id="lpg.runtime.module.classpath">
+    <pathelement location="${lpg.testoutput.dir}"/>
+    <pathelement location="${lpg.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.lpg">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.lpg">
+    <patternset refid="excluded.from.module.lpg"/>
+  </patternset>
+  
+  <path id="lpg.module.sourcepath">
+    <dirset dir="${module.lpg.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.lpg" depends="compile.module.lpg.production,compile.module.lpg.tests" description="Compile module lpg"/>
+  
+  <target name="compile.module.lpg.production" depends="register.custom.compilers" description="Compile module lpg; production classes">
+    <mkdir dir="${lpg.output.dir}"/>
+    <javac2 destdir="${lpg.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.lpg}/javac">
+      <compilerarg line="${compiler.args.lpg}"/>
+      <bootclasspath refid="lpg.module.bootclasspath"/>
+      <classpath refid="lpg.module.production.classpath"/>
+      <src refid="lpg.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.lpg"/>
+    </javac2>
+    
+    <copy todir="${lpg.output.dir}">
+      <fileset dir="${module.lpg.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.lpg.tests" depends="register.custom.compilers,compile.module.lpg.production" description="compile module lpg; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.lpg" description="cleanup module">
+    <delete dir="${lpg.output.dir}"/>
+    <delete dir="${lpg.testoutput.dir}"/>
+  </target>
+</project>

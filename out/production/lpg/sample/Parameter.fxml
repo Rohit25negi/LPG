@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="199.0" prefWidth="381.0" style="-fx-background-color: White;" stylesheets="@GenPapers.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Parameter">
+   <children>
+      <Label layoutX="89.0" layoutY="61.0" prefHeight="17.0" prefWidth="131.0" text="TYPE" />
+      <Label layoutX="58.0" layoutY="97.0" prefHeight="17.0" prefWidth="107.0" text="DIFFICULTY LEVEL" />
+      <Button fx:id="insert" layoutX="142.0" layoutY="135.0" mnemonicParsing="false" onAction="#addThisFinally" prefHeight="25.0" prefWidth="117.0" text="ADD">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font></Button>
+      <ComboBox fx:id="type" layoutX="190.0" layoutY="57.0" prefWidth="150.0" />
+      <ComboBox fx:id="difficulty" layoutX="190.0" layoutY="93.0" prefWidth="150.0" />
+   </children>
+</Pane>

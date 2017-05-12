@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane id="decoration-background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="696.0" style="-fx-background-color: White;" stylesheets="@asd.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+   <children>
+      <Pane layoutX="12.0" layoutY="40.0" prefHeight="565.0" prefWidth="677.0" style="-fx-background-color: white;">
+         <children>
+            <Button alignment="CENTER" contentDisplay="TOP" layoutX="221.0" layoutY="126.0" mnemonicParsing="false" onAction="#addQuestion" prefHeight="31.0" prefWidth="249.0" style="-fx-border-width: 3;" text="ADD QUESTION" textAlignment="CENTER" textFill="#d5d5d7">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="TOP" layoutX="295.0" layoutY="207.0" mnemonicParsing="false" onAction="#viewPaper" prefHeight="48.0" prefWidth="256.0" style="-fx-border-width: 3;" text="VIEW PAPER" textAlignment="CENTER" textFill="#d5d5d7">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" contentDisplay="TOP" layoutX="89.0" layoutY="45.0" mnemonicParsing="false" onAction="#generatePaper" prefHeight="27.0" prefWidth="256.0" style="-fx-border-width: 3;" text="GENERATE PAPER" textAlignment="CENTER" textFill="#dadae4">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="177.0" fitWidth="416.0" layoutX="9.0" layoutY="329.0">
+               <image>
+                  <Image url="@prototype.png" />
+               </image>
+            </ImageView>
+            <Button id="about" alignment="CENTER" contentDisplay="TOP" layoutX="515.0" layoutY="503.0" mnemonicParsing="false" onAction="#openAbout" prefHeight="26.0" prefWidth="129.0" style="-fx-border-width: 3;" styleClass="about" text="ABOUT" textAlignment="CENTER" textFill="#d5d5d7">
+               <font>
+                  <Font name="Calibri" size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>
