@@ -7,99 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/382.GIF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/AddQuestion.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Availability.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/DisplayPaper2.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/DisplayQuestion.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/DisplayingPaper.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/GenPapers.bss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/GenPapers.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/GenPattern.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/MainPage.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Ok.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/PaperList.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Parameter.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Symbols.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Waiting.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/about.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/addNew.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/asd.bss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/backnew.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/backnew2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/db.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/pi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/pi1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/prototype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/save.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/splash.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/lpg/sample/splash2.gif" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/120.png" afterPath="$PROJECT_DIR$/src/UI/120.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/32.jpg" afterPath="$PROJECT_DIR$/src/UI/32.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/382.GIF" afterPath="$PROJECT_DIR$/src/UI/382.GIF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/AddQuestion.fxml" afterPath="$PROJECT_DIR$/src/UI/AddQuestion.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/Availability.fxml" afterPath="$PROJECT_DIR$/src/UI/Availability.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/DisplayPaper2.fxml" afterPath="$PROJECT_DIR$/src/UI/DisplayPaper2.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/DisplayQuestion.fxml" afterPath="$PROJECT_DIR$/src/UI/DisplayQuestion.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/DisplayingPaper.fxml" afterPath="$PROJECT_DIR$/src/UI/DisplayingPaper.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/GenPapers.bss" afterPath="$PROJECT_DIR$/src/UI/GenPapers.bss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/GenPapers.fxml" afterPath="$PROJECT_DIR$/src/UI/GenPapers.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/GenPattern.fxml" afterPath="$PROJECT_DIR$/src/UI/GenPattern.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/MainPage.fxml" afterPath="$PROJECT_DIR$/src/UI/MainPage.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/Ok.fxml" afterPath="$PROJECT_DIR$/src/UI/Ok.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/PaperList.fxml" afterPath="$PROJECT_DIR$/src/UI/PaperList.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/Parameter.fxml" afterPath="$PROJECT_DIR$/src/UI/Parameter.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/Symbols.fxml" afterPath="$PROJECT_DIR$/src/UI/Symbols.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/Waiting.fxml" afterPath="$PROJECT_DIR$/src/UI/Waiting.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/about.fxml" afterPath="$PROJECT_DIR$/src/UI/about.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/addNew.fxml" afterPath="$PROJECT_DIR$/src/UI/addNew.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/asd.bss" afterPath="$PROJECT_DIR$/src/UI/asd.bss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/back.jpg" afterPath="$PROJECT_DIR$/src/UI/back.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/backnew.jpg" afterPath="$PROJECT_DIR$/src/UI/backnew.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/backnew2.jpg" afterPath="$PROJECT_DIR$/src/UI/backnew2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/db.png" afterPath="$PROJECT_DIR$/src/UI/db.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/pi.jpg" afterPath="$PROJECT_DIR$/src/UI/pi.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/pi1.jpg" afterPath="$PROJECT_DIR$/src/UI/pi1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/prototype.png" afterPath="$PROJECT_DIR$/src/UI/prototype.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/save.jpg" afterPath="$PROJECT_DIR$/src/UI/save.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/splash.fxml" afterPath="$PROJECT_DIR$/src/UI/splash.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/splash2.gif" afterPath="$PROJECT_DIR$/src/UI/splash2.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Papers" afterPath="$PROJECT_DIR$/Papers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/AddNew.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/AddNew.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Availability.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Availability.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Controller.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/DisplayPaper.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/DisplayPaper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/DisplayPaper2.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/DisplayPaper2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/DisplayQuestion.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/DisplayQuestion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/FadeApp.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/FadeApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Genpaper.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Genpaper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Message.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Message.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/PaperList.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/PaperList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Parameter.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Parameter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Symbols.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Symbols.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Uni.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Uni.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lpg/sample/Wait$1.class" afterPath="$PROJECT_DIR$/out/production/lpg/sample/Wait$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/AddNew.java" afterPath="$PROJECT_DIR$/src/sample/AddNew.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Availability.java" afterPath="$PROJECT_DIR$/src/sample/Availability.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DisplayPaper.java" afterPath="$PROJECT_DIR$/src/sample/DisplayPaper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DisplayPaper2.java" afterPath="$PROJECT_DIR$/src/sample/DisplayPaper2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/DisplayQuestion.java" afterPath="$PROJECT_DIR$/src/sample/DisplayQuestion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/FadeApp.java" afterPath="$PROJECT_DIR$/src/sample/FadeApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Genpaper.java" afterPath="$PROJECT_DIR$/src/sample/Genpaper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Message.java" afterPath="$PROJECT_DIR$/src/sample/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/PaperList.java" afterPath="$PROJECT_DIR$/src/sample/PaperList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Parameter.java" afterPath="$PROJECT_DIR$/src/sample/Parameter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Symbols.java" afterPath="$PROJECT_DIR$/src/sample/Symbols.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Uni.java" afterPath="$PROJECT_DIR$/src/sample/Uni.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Wait.java" afterPath="$PROJECT_DIR$/src/sample/Wait.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -187,11 +96,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Genpaper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Genpaper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Genpaper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayPaper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/DisplayPaper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayPaper2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/DisplayPaper2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -270,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/sample/ReadyPaper.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Genpaper.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -758,7 +698,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -863,13 +803,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/DisplayQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="118" column="81" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Genpaper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1088,24 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DisplayPaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1128">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DisplayPaper2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="63" column="72" lean-forward="false" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/DisplayQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
@@ -1236,8 +1151,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Genpaper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="252">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DisplayPaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DisplayPaper2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
           <folding />
         </state>
       </provider>
