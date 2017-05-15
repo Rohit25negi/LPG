@@ -37,7 +37,7 @@ public class Parameter implements Initializable{
         examtopic=topic;
         examQues=Question;
         Stage st=new Stage();
-        Pane s= FXMLLoader.load(getClass().getResource("Parameter.fxml"));
+        Pane s= FXMLLoader.load(getClass().getResource("../UI/Parameter.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(st,s);
 
         st.setTitle("Set Parameters");

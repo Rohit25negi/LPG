@@ -31,7 +31,7 @@ public class Controller implements Initializable {
     public ScrollPane scr[];
     public  void backToMain()throws Exception
     {
-        Pane root= FXMLLoader.load(getClass().getResource("GenPapers.fxml"));
+        Pane root= FXMLLoader.load(getClass().getResource("../UI/GenPapers.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(Main.window,root);
         undecoratorScene.addStylesheet("demoapp/demoapp.css");
 

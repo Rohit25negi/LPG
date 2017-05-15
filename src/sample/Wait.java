@@ -23,7 +23,7 @@ public Task<Void> createTask() {
             Genpaper.p.setWidth(300);
             System.out.println(getClass().getResource("Waiting.fxml"));
             try {
-                Pane sc = FXMLLoader.load(getClass().getResource("Waiting.fxml"));
+                Pane sc = FXMLLoader.load(getClass().getResource("../UI/Waiting.fxml"));
                 Scene scene=new Scene(sc, 300, 100);
                 Genpaper.p.setX(Main.window.getX()+Main.window.getWidth()/2-Genpaper.p.getWidth()/2);
                 Genpaper.p.setY(Main.window.getY() + Main.window.getHeight() / 2 - Genpaper.p.getHeight() / 2);

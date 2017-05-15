@@ -135,11 +135,11 @@ public class FadeApp extends Application {
             } // todo add code to gracefully handle other task states.
         });
         try{
-        Parent splashScene = FXMLLoader.load(getClass().getResource("splash.fxml"));
+        Parent splashScene = FXMLLoader.load(getClass().getResource("../UI/splash.fxml"));
         initStage.initStyle(StageStyle.UNDECORATED);
         final Rectangle2D bounds = Screen.getPrimary().getBounds();
             Scene scene=new Scene(splashScene);
-            Image image = new Image("sample/prototype.png");
+            Image image = new Image("UI/prototype.png");
             initStage.getIcons().addAll(image);
             initStage.initStyle(StageStyle.TRANSPARENT);
             scene.setFill(Color.TRANSPARENT);

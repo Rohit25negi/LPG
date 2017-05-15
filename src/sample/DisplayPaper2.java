@@ -59,7 +59,7 @@ public class DisplayPaper2 implements Initializable{
         distinction=dis;
         difference=diff;
         stg=new Stage();
-        Pane ppe= FXMLLoader.load(getClass().getResource("DisplayPaper2.fxml"));
+        Pane ppe= FXMLLoader.load(getClass().getResource("../UI/DisplayPaper2.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(stg,ppe);
         stg.setWidth(775);
         stg.setHeight(685);

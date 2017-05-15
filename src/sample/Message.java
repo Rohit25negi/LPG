@@ -32,7 +32,7 @@ public class Message implements Initializable {
     public void create(String a,Stage parent) throws Exception
     {
         ms=a;
-        Pane p= FXMLLoader.load(getClass().getResource("Ok.fxml"));
+        Pane p= FXMLLoader.load(getClass().getResource("../UI/Ok.fxml"));
         st=new Stage();
         UndecoratorScene undecoratorScene=new UndecoratorScene(st,p);
         st.setWidth(400);

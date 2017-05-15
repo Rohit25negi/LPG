@@ -109,7 +109,7 @@ public class Symbols implements Initializable,EventHandler {
         symWindow=st;
         st.setTitle("Select Symbol");
 
-        Pane p= FXMLLoader.load(getClass().getResource("Symbols.fxml"));
+        Pane p= FXMLLoader.load(getClass().getResource("../UI/Symbols.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(st,p);
         st.setWidth(550);
         st.setHeight(450);

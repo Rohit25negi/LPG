@@ -28,7 +28,7 @@ public class AddNew implements Initializable{
         Pane str;
         type=arg;
         stg=new Stage();
-        str= FXMLLoader.load(getClass().getResource("addNew.fxml"));
+        str= FXMLLoader.load(getClass().getResource("../UI/addNew.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(stg,str);
 
         stg.setWidth(400);

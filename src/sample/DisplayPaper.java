@@ -59,7 +59,7 @@ static TestPattern title;
         difference=diff;
         stg=new Stage();
         stg.setTitle(name.name);
-        Pane ppe= FXMLLoader.load(getClass().getResource("DisplayingPaper.fxml"));
+        Pane ppe= FXMLLoader.load(getClass().getResource("../UI/DisplayingPaper.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(stg,ppe);
         stg.setWidth(775);
         stg.setHeight(690);

@@ -96,7 +96,7 @@ public class DisplayQuestion implements Initializable {
     {   f=new File("ExamList/"+file1+"/"+file);
         st=new Stage();
         st.setTitle(file);
-        Pane p= FXMLLoader.load(getClass().getResource("DisplayQuestion.fxml"));
+        Pane p= FXMLLoader.load(getClass().getResource("../UI/DisplayQuestion.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(st,p);
 
        st.setWidth(780);

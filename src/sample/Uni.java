@@ -35,7 +35,7 @@ public class Uni implements Initializable{
 
     public  void backToMain()throws Exception
     {
-        Pane root= FXMLLoader.load(getClass().getResource("MainPage.fxml"));
+        Pane root= FXMLLoader.load(getClass().getResource("../UI/MainPage.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(Main.window,root);
         undecoratorScene.addStylesheet("demoapp/demoapp.css");
 

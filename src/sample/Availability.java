@@ -147,7 +147,7 @@ public class Availability implements Initializable {
 
 
 
-        Pane p= FXMLLoader.load(getClass().getResource("Availability.fxml"));
+        Pane p= FXMLLoader.load(getClass().getResource("../UI/Availability.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(st,p);
 
         st.setWidth(650);

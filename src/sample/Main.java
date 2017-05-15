@@ -40,9 +40,9 @@ public class Main extends Application {
         window=primaryStage;
         primaryStage.setTitle("Lazy Paper Generator");
         System.out.println(getClass().getResource("MainPage.fxml"));
-        Image image = new Image("sample/prototype.png");
+        Image image = new Image("UI/prototype.png");
         window.getIcons().addAll(image);
-        root1 = FXMLLoader.load(getClass().getResource("MainPage.fxml"));
+        root1 = FXMLLoader.load(getClass().getResource("../UI/MainPage.fxml"));
         final UndecoratorScene undecoratorScene = new UndecoratorScene(primaryStage, (Region)root1);
         // Overrides defaults
         undecoratorScene.addStylesheet("demoapp/demoapp.css");
@@ -118,7 +118,7 @@ public class Main extends Application {
     }
 
     public void generatePaper()throws Exception{
-        Pane root2=FXMLLoader.load(getClass().getResource("GenPapers.fxml"));
+        Pane root2=FXMLLoader.load(getClass().getResource("../UI/GenPapers.fxml"));
 
         UndecoratorScene undecoratorScene=new UndecoratorScene(window, root2);
         undecoratorScene.addStylesheet("demoapp/demoapp.css");
@@ -133,7 +133,7 @@ public class Main extends Application {
     }
     public void addQuestion()throws Exception
     {
-        Pane root2=FXMLLoader.load(getClass().getResource("AddQuestion.fxml"));
+        Pane root2=FXMLLoader.load(getClass().getResource("../UI/AddQuestion.fxml"));
 
         UndecoratorScene undecoratorScene=new UndecoratorScene(window, root2);
 
@@ -157,7 +157,7 @@ new PaperList().create();
     public void openAbout()throws Exception
     {   Stage st;
 
-        Pane p= FXMLLoader.load(getClass().getResource("about.fxml"));
+        Pane p= FXMLLoader.load(getClass().getResource("../UI/about.fxml"));
         st=new Stage();
         UndecoratorScene undecoratorScene=new UndecoratorScene(st,p);
         st.setWidth(650);

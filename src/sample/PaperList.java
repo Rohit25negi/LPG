@@ -99,7 +99,7 @@ public class PaperList implements Initializable {
 
         st=new Stage();
         st.setTitle("Papers");
-        Pane p= FXMLLoader.load(getClass().getResource("PaperList.fxml"));
+        Pane p= FXMLLoader.load(getClass().getResource("../UI/PaperList.fxml"));
         UndecoratorScene undecoratorScene=new UndecoratorScene(st,p);
         st.setHeight(600);
         st.setWidth(770);
